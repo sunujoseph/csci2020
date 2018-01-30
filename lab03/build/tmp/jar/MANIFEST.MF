@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: CSVDemo.Demo
+Implementation-Title: Lab-Gradle
+Implementation-Version: 1.0
+
