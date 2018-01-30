@@ -5,6 +5,16 @@ apply plugin: 'java'
  }
 
  dependencies {
-   compile group: 'com.walterjwhite.infrastructure.dependencies', name: 'commons-csv', version: '0.0.15'
+   compile group: 'org.apache.commons', name: 'commons-csv', version: '	1.5'
    compile files("/usr/lib/jvm/java-9-oracle/lib/tools.jar")
+ }
+
+sourceCompatibility = 1.7
+ version = '1.0'
+ jar {
+    manifest {
+        attributes  'Main-Class': 'CSVDemo.Demo',
+                    'Implementation-Title': 'Lab-Gradle',
+                    'Implementation-Version': 1.0
+    }
  }
